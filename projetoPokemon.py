@@ -12,14 +12,13 @@ while True:
     limpar_terminal()
     print(30*'-')
     nome = input('Olá!! Seja bem vindo ao mundo pokemon!! Os Pokémons são criaturas incríveis que compartilham o mundo com os seres humanos\n\nPara começar, diga seu nome: \n\n')
+    limpar_terminal()
     print(f'\nSeja bem vindo {nome}!!\n' + 30*'-')
-
-    
 
     #Escolhendo inicial
 
     pokemons = []
-    limpar_terminal()
+    
     while True: 
         opcao = input(f'Para começar sua jornada, escolha seu pokemon inicial, ele será seu parceiro nessa sua aventura!\n\n 1 - Charmander\n 2 - Squirtle\n 3 - Bulbassauro \n\n')
 
